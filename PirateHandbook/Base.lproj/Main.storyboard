@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PirateHandbook" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="CUF-05-4i9">
+                                <rect key="frame" x="-11" y="0.0" width="425" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Iry-PE-R7D">
+                                <rect key="frame" x="0.0" y="368" width="414" height="170"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FSc-k8-Wq7">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="SSV-ex-bCc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                        <state key="normal" title="Treasure Map" backgroundImage="button">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLp-fs-5B9">
+                                        <rect key="frame" x="0.0" y="60" width="414" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="ybC-5A-v8U"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                        <state key="normal" title="Weather Forecast" backgroundImage="button">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="sbD-py-a8Q">
+                                        <rect key="frame" x="0.0" y="120" width="414" height="50"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k9f-dr-SOg">
+                                                <rect key="frame" x="0.0" y="0.0" width="202" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="WZF-Xm-Djb"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                                <state key="normal" title="Privacy Policy" backgroundImage="button">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cog-58-tol">
+                                                <rect key="frame" x="212" y="0.0" width="202" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="3QM-cd-I1N"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
+                                                <state key="normal" title="FAQs" backgroundImage="button">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="© Please do not pirate the Pirate Handbook" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="uaO-Ja-mo8">
+                                <rect key="frame" x="20" y="841.5" width="374" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Iry-PE-R7D" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="9df-Ou-vdy"/>
+                            <constraint firstItem="uaO-Ja-mo8" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="CP9-NL-mu0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="uaO-Ja-mo8" secondAttribute="trailing" id="TtK-uv-3Lj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Iry-PE-R7D" secondAttribute="trailing" id="apX-gZ-9nF"/>
+                            <constraint firstItem="uaO-Ja-mo8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="qhT-T8-l5w"/>
+                            <constraint firstItem="Iry-PE-R7D" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ts4-cL-hzR"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="107.8125"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="unm-Vd-jgL">
+            <objects>
+                <viewController id="2SO-Tt-7cj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iZr-L0-hum">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="39" translatesAutoresizingMaskIntoConstraints="NO" id="rrB-hM-8bb">
+                                <rect key="frame" x="44" y="44" width="326" height="539.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="bottom" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Azx-rR-ZWy">
+                                        <rect key="frame" x="0.0" y="0.0" width="326" height="120.5"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ghost" translatesAutoresizingMaskIntoConstraints="NO" id="zys-bs-1ah">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="120.5"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="QfE-JU-HBT">
+                                                <rect key="frame" x="140" y="62" width="186" height="58.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pirate Ghost" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wNB-3y-vcc">
+                                                        <rect key="frame" x="0.0" y="0.0" width="186" height="30"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formerly a Mighty Pirate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WbO-AR-kOY">
+                                                        <rect key="frame" x="0.0" y="38" width="186" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="xWC-v7-hEC">
+                                        <rect key="frame" x="0.0" y="159.5" width="326" height="80"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Treasure" translatesAutoresizingMaskIntoConstraints="NO" id="7by-ou-KEr">
+                                                <rect key="frame" x="0.0" y="0.0" width="81" height="80"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ring" translatesAutoresizingMaskIntoConstraints="NO" id="2Ki-Os-t4a">
+                                                <rect key="frame" x="123" y="0.0" width="81" height="80"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Golden Swift" translatesAutoresizingMaskIntoConstraints="NO" id="zE9-W3-6c4">
+                                                <rect key="frame" x="246" y="0.0" width="80" height="80"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="treasure map" translatesAutoresizingMaskIntoConstraints="NO" id="WeL-XH-3sY">
+                                        <rect key="frame" x="0.0" y="278.5" width="326" height="130"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="hle-Vy-3dz">
+                                        <rect key="frame" x="0.0" y="447.5" width="326" height="92"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ept-jb-cA4">
+                                                <rect key="frame" x="254" y="0.0" width="72" height="42"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MCJ-fe-edq">
+                                                <rect key="frame" x="254" y="50" width="72" height="42"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="FgC-dS-i4B"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="rrB-hM-8bb" firstAttribute="centerX" secondItem="iZr-L0-hum" secondAttribute="centerX" id="3i7-LW-72x"/>
+                            <constraint firstItem="rrB-hM-8bb" firstAttribute="top" secondItem="FgC-dS-i4B" secondAttribute="top" id="9dr-Ku-1Rv"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vcx-Ku-iDS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="674" y="108"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="foB-Er-VDi">
+            <objects>
+                <viewController id="kvg-yh-MlR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ST8-Ke-wNB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ich weiss nicht was soll es bedeuten" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3uu-e0-BQU">
+                                <rect key="frame" x="17" y="57" width="275" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dGh-0P-5Da">
+                                <rect key="frame" x="184" y="771" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="240" placeholderIntrinsicHeight="128" translatesAutoresizingMaskIntoConstraints="NO" id="eCE-x1-mE6">
+                                <rect key="frame" x="87" y="384" width="240" height="128"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iUF-6U-EAM">
+                                <rect key="frame" x="184" y="291" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7FG-OD-hn7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7FG-OD-hn7" firstAttribute="bottom" secondItem="dGh-0P-5Da" secondAttribute="bottom" constant="61" id="89F-gi-VvW"/>
+                            <constraint firstItem="eCE-x1-mE6" firstAttribute="top" secondItem="iUF-6U-EAM" secondAttribute="bottom" constant="63" id="8xo-UU-308"/>
+                            <constraint firstItem="eCE-x1-mE6" firstAttribute="centerY" secondItem="ST8-Ke-wNB" secondAttribute="centerY" id="C2C-tn-vMm"/>
+                            <constraint firstItem="3uu-e0-BQU" firstAttribute="leading" secondItem="7FG-OD-hn7" secondAttribute="leading" constant="17" id="EGO-4x-fKL"/>
+                            <constraint firstItem="dGh-0P-5Da" firstAttribute="centerX" secondItem="ST8-Ke-wNB" secondAttribute="centerX" id="EnO-vT-vja"/>
+                            <constraint firstItem="iUF-6U-EAM" firstAttribute="centerX" secondItem="eCE-x1-mE6" secondAttribute="centerX" id="Gzh-QH-Cq3"/>
+                            <constraint firstItem="3uu-e0-BQU" firstAttribute="top" secondItem="7FG-OD-hn7" secondAttribute="top" constant="13" id="bUv-y6-TVO"/>
+                            <constraint firstItem="eCE-x1-mE6" firstAttribute="centerX" secondItem="ST8-Ke-wNB" secondAttribute="centerX" id="y3Y-iz-daL"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PXA-O1-XNY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1356.521739130435" y="107.8125"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Golden Swift" width="80" height="80"/>
+        <image name="Ring" width="81" height="80"/>
+        <image name="Treasure" width="81" height="80"/>
+        <image name="bg" width="2732" height="2732"/>
+        <image name="button" width="178" height="89"/>
+        <image name="ghost" width="120" height="120.5"/>
+        <image name="treasure map" width="300" height="130"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
